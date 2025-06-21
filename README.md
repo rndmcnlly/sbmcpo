@@ -1,5 +1,7 @@
 # SBMCPO: StatusBar MCP-to-OpenAPI
 
+![screenshot](screenshot.png)
+
 This tiny MacOS status bar app allows you to run an OpenAPI server that exposes access to multiple MCP ([Model Context Protocol](https://modelcontextprotocol.io/)) servers. It is intended for use with chat interfaces like [Open WebUI](https://github.com/open-webui/open-webui) that run tools via plain web requests.
 
 It's basically a mash-up of [rumps](https://github.com/jaredks/rumps) and [mcpo](https://github.com/open-webui/mcpo). It offers a simple `sbmcpo.app` that you can double-click to launch.
