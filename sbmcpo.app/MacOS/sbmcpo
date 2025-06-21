@@ -1,0 +1,4 @@
+#!/bin/zsh
+# Shell wrapper to launch sbmcpo.py using uv
+cd "$(dirname "$0")"
+exec ~/.local/bin/uv run --script sbmcpo.py
